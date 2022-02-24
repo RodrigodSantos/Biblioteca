@@ -1,2 +1,2 @@
 # Biblioteca
-Criando uma biblioteca digital do zero.
+Criando um sistema de biblioteca digital interativa
