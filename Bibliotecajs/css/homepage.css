@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  height: 145px;
+  background: #333433;
+  max-width: 960px;
+  border: 5px solid goldenrod;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.text-top {
+  border-top: 3px solid #333433;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
+  max-width: 960px;
+}
+
+.nav-list {
+  margin: 0 auto;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 960px;
+  color: white;
+  list-style: none;
+}
+
+li > a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+body {
+  background-image: url(https://cdn.awsli.com.br/600x450/1238/1238683/produto/56849544/ef834c2785.jpg);
+}
+
+footer {
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+  max-width: 960px;
+  margin: 0 auto;
+  background: #333433;
+  color: aliceblue;
+  text-align: center;
+}

@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  height: 145px;
+  background: #333433;
+  max-width: 960px;
+  border: 5px solid goldenrod;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.text-top {
+  border-top: 3px solid #333433;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
+  max-width: 960px;
+}
+
+.nav-list {
+  margin: 0 auto;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 960px;
+  color: white;
+  list-style: none;
+}
+
+li > a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+body {
+  background-image: url(https://cdn.awsli.com.br/600x450/1238/1238683/produto/56849544/ef834c2785.jpg);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  border-top: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.livro {
+  color: white;
+  background: #333433;
+  text-align: center;
+  margin: 20px;
+  width: 200px;
+  max-width: 200px;
+  height: 260px;
+  max-height: 260px;
+  border: 1px solid white;
+}
+
+.genero {
+  margin-top: 5%;
+}
+
+.info {
+  text-align: start;
+  margin: 5%;
+  max-height: 260px;
+}
+
+footer {
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+  max-width: 960px;
+  margin: 0 auto;
+  background: #333433;
+  color: aliceblue;
+  text-align: center;
+}
